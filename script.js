@@ -1,25 +1,10 @@
 const body = document.querySelector("body")
-const red = document.querySelector("#red")
-const green = document.querySelector("#green")
-const blue = document.querySelector("#blue")
-const black = document.querySelector("#black")
+let buttons = document.querySelector(".box")
 
-
-red.addEventListener("click",()=>{
-    body.style.backgroundColor = "red";
-    console.log("red");
-})
-green.addEventListener("click",()=>{
-    body.style.backgroundColor = "green";
-    console.log("green");
-})
-blue.addEventListener("click",()=>{
-    body.style.backgroundColor = "blue";
-    console.log("blue");
-})
-black.addEventListener("click",()=>{
-    body.style.backgroundColor = "black";
-    console.log("black");
-})
-
+buttons.forEach(button => {
+    button.addEventListener("click",(button)=>{
+        body.style.backgroundColor = `${button.innertext}`
+        console.log(button);
+    })    
+});
 
