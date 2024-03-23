@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;      
+    justify-content: center;
+    border: 2px solid black;
+    height: 726px;
+    align-items: center;         
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-left: 20px;    
+    text-align: center;
+    font-size: 30px;         
+}
+.box:hover{
+    cursor: pointer;
+}
+
+#red{
+    color: white;
+    background-color: red;
+}
+#green{
+    color: white;
+    background-color:green;
+}
+#blue{
+    color: white;
+    background-color:blue;
+}
+#black{
+    color:white;
+    background-color: black;
+}
+
+
