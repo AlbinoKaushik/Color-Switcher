@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-wrap: wrap;      
     justify-content: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 726px;
     align-items: center;         
 }
@@ -24,21 +24,21 @@ body{
     cursor: pointer;
 }
 
-#red{
+#crimson{
     color: white;
-    background-color: red;
+    background-color: crimson;
 }
-#green{
+#chartreuse{
     color: white;
-    background-color:green;
+    background-color: chartreuse;
 }
-#blue{
+#tomato{
     color: white;
-    background-color:blue;
+    background-color: tomato;
 }
-#black{
+#darkcyan{
     color:white;
-    background-color: black;
+    background-color: darkcyan;
 }
 
 
